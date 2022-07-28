@@ -1,0 +1,21 @@
+/* Slider */
+.carousel-item {
+    height: 85vh;
+    min-height: 600px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-item img {
+    min-height: 600px;
+}
